@@ -1,0 +1,46 @@
+body {
+  font-family: 'Roboto';
+}
+
+/*
+  Josh Comeau's css reset
+*/
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+  font-size: 10px; /* Add this so 1rem = 10px */
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+input, button, textarea, select {
+  font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: normal;
+  hyphens: none;
+}
+#root, #__next {
+  isolation: isolate;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+:root {
+  --accent-color-one: #58202D;
+  --accent-color-two: #1F1927;
+  --color-grey: #383842;
+  --color-grey-light: #949AA6;
+}

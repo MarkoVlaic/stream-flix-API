@@ -1,0 +1,33 @@
+.track-container {
+  width: 100%;
+}
+
+.track-title {
+  font-size: 2.3rem;
+}
+
+.lang-audio-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  width: 70%;
+  margin: 0 auto;
+}
+
+.lang-list-title {
+  font-size: 2.2rem;
+  font-weight: 200;
+  border-bottom: 2px solid white;
+
+  margin-bottom: 1rem;
+}
+
+.lang-list {
+  list-style-type: none;
+  text-align: left;
+  padding: 0;
+
+  font-weight: 200;
+  font-size: 1.8rem;
+}

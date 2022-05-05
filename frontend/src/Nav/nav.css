@@ -1,0 +1,25 @@
+.nav {
+  background-color: var(--accent-color-one);
+  font-size: 2.4rem;
+  padding: .5rem 0;
+  text-align: center;
+}
+
+
+.nav-link-container {
+  display: flex;
+  width: 15%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: var(--color-grey-light);
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.nav-link-active {
+  color: white;
+  font-weight: 400;
+}
